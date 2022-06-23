@@ -30,10 +30,10 @@
 
 ## Overview
 
-![screenshot](https://github.com/paulonsx/404-not-found-challenge/blob/main/assets/img/screenshot.png)
+![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/404-not-found/assets/img/screenshot.png)
 
 
-![screenshot](https://github.com/paulonsx/404-not-found-challenge/blob/main/assets/img/screenshot2.jpeg)
+![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/404-not-found/assets/img/screenshot2.jpeg)
 
 ### Built With
 
