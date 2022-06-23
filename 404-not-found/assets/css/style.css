@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+} 
+
+img {
+    max-width: 33.125rem;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #333333;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #4F4F4F;
+}
+
+button {
+    background-color: #333333;
+    width: 13.5rem;
+    height: 4.25rem;
+    border: none;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 3.375rem;
+    padding: 0.625rem 0.625rem;
+}
+
+#header {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 2.5rem 0 0 4.81rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5.26rem;
+    gap: 7.5rem;
+    flex-wrap: wrap;
+}
+
+.right-side{
+    max-width: 36.875rem;
+}
+
+.right-side p{
+    margin: 1.625rem 11.25rem 0 0;
+
+
+}
+
+#footer {
+    position:absolute; 
+    bottom:0; 
+    width:100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.75rem;
+}
+
+#footer p {
+    font-size: 0.875rem;
+    color: #BDBDBD;
+}
+
+#footer a {
+    color: #BDBDBD;
+}
+
+@media (max-width: 81.25rem){
+
+button{
+    margin-left: 1.5rem;
+    margin: 4.125rem 0 0 2.5rem;
+}
+
+img {
+    max-width: 25rem;
+}
+
+h1 {
+    margin: 0 2.5rem 0 2.5rem;
+    font-size: 3rem;
+}
+
+#footer {
+    margin-top: 8.75rem;
+    margin-bottom: 0.75rem;
+    position:relative; 
+}
+
+#header {
+    margin: 1.25rem 0 0 2.5rem;
+}
+
+.container {
+    gap: 2.5rem;
+}
+
+.right-side p{
+    margin: 1.625rem 1.25rem 0 2.5rem;
+}
+
+}
