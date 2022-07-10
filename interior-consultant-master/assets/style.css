@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+/* font-family: 'Crimson Pro', serif;
+
+font-family: 'Lora', serif;
+
+font-family: 'Montserrat', sans-serif; */
+
+body {
+    background-color: #181719;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 8px;
+    margin-left: 77px;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 86px;
+}
+
+.button:hover {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #FFF;
+}
+
+/*Header end*/
+
