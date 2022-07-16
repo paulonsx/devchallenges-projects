@@ -5,17 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" media="(max-width:450px)" href="assets/mobile.css">
   <link rel="shortcut icon" href="assets/img/devchallenges.png" type="image/x-icon">
   <title>Interior consultant</title>
 </head>
 <body>
   <header class="header">
     <h1 class="logo">This interior</h1>
-    <nav>
-      <a href="#" class="button">Home</a>
-      <a href="#" class="button">Collection</a>
-      <a href="#" class="button">About</a>
-      <a href="#" class="button">Contact</a>
+    <nav id="nav">
+      <button id="btn-mobile">Menu
+        <span id="burguer"></span>
+      </button>
+      <ul id="menu">
+        <li><a href="#" class="button">Home</a></li>
+        <li><a href="#" class="button">Collection</a></li>
+        <li><a href="#" class="button">About</a></li>
+        <li><a href="#" class="button">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -40,6 +46,8 @@
   </div>
 
   <footer>created by <a href="https://devchallenges.io/portfolio/paulonsx" target="_blank">paulonsx</a> - devChallenges.io</footer>
+
+  <script src="assets/script.js"></script>
   
 </body>
 </html>

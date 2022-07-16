@@ -1,0 +1,75 @@
+#btn-mobile {
+    color: #FFF;
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: tomato;
+    cursor: pointer;
+    gap: .5rem;
+}
+
+#burguer {
+    border-top: 2px solid;
+    width: 20px;
+}
+
+#burguer::after, #burguer::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
+
+#nav.active #burguer {
+    border-top-color: transparent;
+}
+
+#nav.active #burguer::before {
+    transform: rotate(135deg);
+}
+
+#nav.active #burguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+#menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    background: #181719;
+    transition: .6s;
+    z-index: 1000;
+    height: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+#menu a {
+    
+    background-color: black;
+
+}
+
+#nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+.button {
+    margin: 0;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000;
+}
+
