@@ -4,21 +4,21 @@
     padding: .5rem 1rem;
     font-size: 1rem;
     border: none;
-    background: tomato;
+    background: #181719;
     cursor: pointer;
     gap: .5rem;
 }
 
 #burguer {
-    border-top: 2px solid;
-    width: 20px;
+    border-top: 3px solid;
+    width: 28px;
 }
 
 #burguer::after, #burguer::before {
     content: '';
     display: block;
-    width: 20px;
-    height: 2px;
+    width: 28px;
+    height: 3px;
     background: currentColor;
     margin-top: 5px;
     transition: .3s;
@@ -38,10 +38,13 @@
     top: -7px;
 }
 
+
+
 #menu {
     display: block;
     position: absolute;
     width: 100%;
+    padding-top: 50%;
     top: 70px;
     right: 0;
     background: #181719;
@@ -53,23 +56,75 @@
     text-align: center;
 }
 
-#menu a {
-    
-    background-color: black;
-
-}
 
 #nav.active #menu {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 315px);
     visibility: visible;
     overflow-y: auto;
+}
+
+#nav.active footer {
+    visibility: hidden;
 }
 
 .button {
     margin: 0;
     display: block;
-    margin-bottom: 20px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #000;
+    margin-bottom: 32px;
+   
 }
 
+
+
+.button:hover {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+ /*btn end*/
+
+ .logo {
+    margin-left: 0;
+ }
+
+ main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.content {
+    max-width: 410px;
+    margin: 0px 60px 0 0px;
+
+}
+
+.interior-img {
+    height: 280px;
+    width: 430px;
+    margin-right: 0px;
+}
+
+.card {
+    top: -55px; 
+    left:50px;
+    max-width: 370px;
+    max-height: 189px;
+}
+
+.card-img {
+    width: 62px;
+    height: 52px;
+}
+
+.card-name-position {
+    margin: 0 0 0 16px;
+}
+
+.author {
+    margin-left: 26px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
