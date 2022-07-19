@@ -16,12 +16,12 @@ body {
 
 #logo {
     font-family: 'Crimson Pro', serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-transform: uppercase;
+    border: 0.0625rem solid #FFF;
+    padding: 0.5rem;
+    margin-left: 4.8125rem;
     color: #FFF;
-    border: 1px solid #FFF;
-    padding: 8px;
-    margin-left: 77px;
 }
 
 #menu {
@@ -32,15 +32,15 @@ body {
 .button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    color: #FFF;
+    font-size: 1.125rem;
     text-decoration: none;
-    margin-right: 86px;
+    margin-right: 5.375rem;
+    color: #FFF;
 }
 
 .button:hover {
-    padding-bottom: 8px;
-    border-bottom: 2px solid #FFF;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.125rem solid #FFF;
 }
 
 /*Header end*/
@@ -48,55 +48,55 @@ body {
 main {
     display: flex;
     justify-content: space-between;
-    margin-top: 65px;
+    margin-top: 4.0625rem;
 }
 
 .content {
-    max-width: 410px;
-    margin: 80px 60px 0 80px;
+    max-width: 25.625rem;
+    margin: 5rem 3.75rem 0 5rem;
 
 }
 
 .title {
-    margin-top: 70px;
+    margin-top: 4.375rem;
     font-family: 'Lora', serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 500;
     color: #FFF;
 }
 
 .description {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 24px;
+    font-size: 1.5rem;
+    margin-bottom: 2.375rem;
     color: #FFF;
-    margin-bottom: 38px;
 }
 
 .interior-img {
-    height: 600px;
-    width: 800px;
-    margin-right: 80px;
+    height: 37.5rem;
+    width: 50rem;
+    margin-right: 5rem;
 }
 
 /*Card*/
 
 .card {
     position:relative; 
-    top: -80px; 
-    left:1370px;
+    top: -5rem; 
+    left: 85.625rem;
     display: flex;
     flex-wrap: wrap;
+    max-width: 25.625rem;
+    max-height: 11.8125rem;
     background-color: #181719;
-    max-width: 410px;
-    max-height: 189px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
     
 }
 
 .card-img {
-    margin: 10px 0 0 26px;
-    width: 85px;
-    height: 72px;
+    margin: 0.625rem 0 0 1.625rem;
+    width: 5.3125rem;
+    height: 4.5rem;
 }
 
 .card-img img {
@@ -106,28 +106,28 @@ main {
 }
 
 .card-name-position {
-    margin: 14px 0 0 16px;
+    margin: 0.875rem 0 0 1rem;
 }
 
 .name {
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #FFF;
 }
 
 .position {
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #828282;
 }
 
 .author {
-    padding-right: 150px;
+    padding-right: 9.375rem;
     font-family: 'Lora';
-    margin-left: 26px;
-    font-size: 24px;
+    margin-left: 1.625rem;
+    font-size: 1.5rem;
     color: #FFF;
 }
 
@@ -135,8 +135,8 @@ main {
 
 footer {
     font-family: 'Montserrat';
-    color: #A9A9A9;
     text-align: center;
+    color: #A9A9A9;
 }
 
 footer a {

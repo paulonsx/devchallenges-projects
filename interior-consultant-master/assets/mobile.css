@@ -1,28 +1,29 @@
+/*Animation button and menu*/
+
 #btn-mobile {
-    color: #FFF;
     display: flex;
     padding: .5rem 1rem;
     font-size: 1rem;
     border: none;
-    background: #181719;
     cursor: pointer;
-    gap: .5rem;
+    color: #FFF;
+    background: #181719;
 }
 
 #burguer {
-    border-top: 3px solid;
-    width: 28px;
+    border-top: 0.1875rem solid #FFF;
+    width: 1.75rem;
 }
 
 #burguer::after, #burguer::before {
     content: '';
     display: block;
-    width: 28px;
-    height: 3px;
-    background: currentColor;
-    margin-top: 5px;
+    width: 1.75rem;
+    height: 0.1875rem;
+    margin-top: 0.3125rem;
     transition: .3s;
     position: relative;
+    background: currentColor;
 }
 
 #nav.active #burguer {
@@ -35,7 +36,7 @@
 
 #nav.active #burguer::after {
     transform: rotate(-135deg);
-    top: -7px;
+    top: -0.4375rem;
 }
 
 .mobile-menu-container {
@@ -43,52 +44,23 @@
     position: absolute;
     width: 100%;
     padding-top: 50%;
-    top: 70px;
     right: 0;
-    background: #181719;
+    height: 0;
     transition: .6s;
     z-index: 1000;
-    height: 0;
     visibility: hidden;
     overflow-y: hidden;
     text-align: center;
+    background: #181719;
 }
 
 #menu {
     display: inline-block;
 }
 
-/* #menu {
-    display: block;
-    position: absolute;
-    width: 100%;
-    padding-top: 50%;
-    top: 70px;
-    right: 0;
-    background: #181719;
-    transition: .6s;
-    z-index: 1000;
-    height: 0;
-    visibility: hidden;
-    overflow-y: hidden;
-    text-align: center;
-} */
-
-
-/* #nav.active #menu {
-    height: calc(100vh - 315px);
-    visibility: visible;
-    overflow-y: auto;
-} */
-
 #nav.active .mobile-menu-container {
-    height: calc(100vh - 300px);
+    height: 70vh;
     visibility: visible;
-    overflow-y: auto;
-}
-
-#nav.active footer {
-    visibility: hidden;
 }
 
 #logo.active {
@@ -98,69 +70,60 @@
 .mobile-menu-container .button {
     margin: 0;
     display: block;
-    margin-bottom: 32px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #181719;
-   
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.125rem solid #181719;
 }
-
-
 
 .mobile-menu-container .button:hover {
-    padding-bottom: 8px;
-    border-bottom: 2px solid #FFF;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.125rem solid #FFF;
 }
- /*btn end*/
+
+/*Animation button and menu - end*/
 
  #logo {
     margin-left: 0;
  }
 
  main {
-    padding-top: 0;
-    display: flex;
     flex-wrap: wrap;
     margin-top: 0;
 }
 
-.title {
-    margin-top: 50px;
-}
 
 .content {
-    max-width: 410px;
-    margin: 0 60px 0 0px;
+    margin: 0 3.75rem 0 0;
 
 }
 
 .interior-img {
-    height: 280px;
-    width: 430px;
-    margin-right: 0px;
-    margin-top: 35px;
+    height: 17.5rem;
+    width: 26.875rem;
+    margin: 2.1875rem 0 0 0;
 }
 
 .card {
     top: -55px; 
     left:50px;
-    max-width: 370px;
-    max-height: 189px;
+    max-width: 23.125rem;
+    max-height: 11.8125rem;
 }
 
 .card-img {
-    width: 62px;
-    height: 52px;
+    width: 3.875rem;
+    height: 3.25rem;
 }
 
 .card-name-position {
-    margin: 0 0 0 16px;
+    margin: 0 0 0 1rem;
 }
 
 .author {
-    margin-left: 26px;
-    font-size: 20px;
+    margin-left: 1.625rem;
+    font-size: 1.25rem;
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
