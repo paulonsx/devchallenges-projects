@@ -55,11 +55,12 @@
 }
 
 #menu {
+    padding: 0;
     display: inline-block;
 }
 
 #nav.active .mobile-menu-container {
-    height: 70vh;
+    height: 100vh;
     visibility: visible;
 }
 
@@ -105,7 +106,7 @@
 
 .card {
     top: -55px; 
-    left:50px;
+    left:25px;
     max-width: 23.125rem;
     max-height: 11.8125rem;
 }
