@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-.logo {
+#logo {
     font-family: 'Crimson Pro', serif;
     font-size: 14px;
     text-transform: uppercase;
