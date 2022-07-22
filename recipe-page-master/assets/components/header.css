@@ -1,0 +1,33 @@
+.header {
+    margin: 3.25rem 0 0 14.75rem;
+    max-width: 37rem;
+}
+.header .title-header {
+    font-family: var(--title-font);
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+}
+
+.header .paragraph-header {
+    font-family: var(--paragraph-font);
+    font-style: italic;
+    font-size: 0.875rem;
+    color: var(--gray-two);
+}
+
+.paragraph-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header .paragraph-box::before {
+    content: url(../img/6dots.svg);
+    display: inline-flex;
+    margin: 0.25rem 0.75rem 0 0;
+}
+
+.banner {
+    margin: 2.6875rem 0 0 14.75rem;
+    max-width: 60.625rem;
+    max-height: 27.8125rem;
+}
