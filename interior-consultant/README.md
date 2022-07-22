@@ -28,11 +28,11 @@
 
 ## Overview
 
-![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/interior-consultant-master/assets/img/Screen%20Shot%202022-07-19%20at%2000.32.47-fullpage.png)
+![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/interior-consultant/assets/img/Screen%20Shot%202022-07-19%20at%2000.32.47-fullpage.png)
 
-![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/interior-consultant-master/assets/img/Screen%20Shot%202022-07-19%20at%2000.33.00-fullpage.png)
+![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/interior-consultant/assets/img/Screen%20Shot%202022-07-19%20at%2000.33.00-fullpage.png)
 
-![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/interior-consultant-master/assets/img/Screenshot%202022-07-19%20at%2000-34-06%20Interior%20consultant.png)
+![screenshot](https://github.com/paulonsx/devchallenges-projects/blob/main/interior-consultant/assets/img/Screenshot%202022-07-19%20at%2000-34-06%20Interior%20consultant.png)
 
 
 ### Built With
