@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,120 @@
   <link rel="stylesheet" href="assets/reset.css">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="assets/components/header.css">
+  <link rel="stylesheet" href="assets/components/checkbox.css">
+  <link rel="stylesheet" href="assets/components/recipes.css">
   <title>Recipe Blog</title>
 </head>
+
 <body>
-   <header class="header">
-    <h1 class="title-header">Classic Cheesecake Recipe</h1>
-    <div class="paragraph-box">
-      <p class="paragraph-header">Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.</p>
+  <header class="header">
+    <h1 class="header-title">Classic Cheesecake Recipe</h1>
+    <div class="box-paragraph">
+      <p class="header-paragraph">Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a
+        buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.
+      </p>
     </div>
-   </header>
-   <img class="banner" src="assets/img/photo1.png" alt="Cheesecake image">
+  </header>
+  <img class="banner" src="assets/img/photo1.png" alt="Cheesecake image">
 
-   <section class="ingredients-container">
-
+  <section class="ingredients-container">
     <h2 class="ingredients-title">Ingredients</h2>
 
     <div class="ingredients-list-box">
-
       <p class="ingredients-subtitle">Graham Cracker Crust</p>
       <ul class="ingredients-list">
-            <li> 1 and 1/2 cups (150g) <span>graham cracker crumbs</span> (about 10 full sheet graham crackers)</li>
-            <li> 5 Tablespoons (70g) <span>unsalted butter</span>, melted</li>
-            <li> 1/4 cup (50g) <span>granulated sugar</span></li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">1 and 1/2 cups (150g) <span>graham cracker crumbs</span> (about 10 full sheet
+              graham crackers)</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">5 Tablespoons (70g) <span>unsalted butter</span>, melted</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">1/4 cup (50g) <span>granulated sugar</span></p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
       </ul>
 
-    </div>
+      <p class="ingredients-subtitle">Cheesecake</p>
+      <ul class="ingredients-list">
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">four 8-ounce blocks (904g) full-fat <span>cream cheese</span>, softened to room
+              temperature</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
 
-   </section>
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">1 cup (200g) <span>granulated sugar</span></p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">1 cup (240g) full-fat <span>sour cream</span>, at room temperature</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">1 teaspoon <span>pure vanilla extract</span></p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">2 teaspoons <span>fresh lemon juice</span> (optional, but recommended)</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">3 large <span>eggs</span>, at room temperature</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+
+        <li class="ingredients-list-item">
+          <label class="b-contain">
+            <p class="list-paragraph">topping suggestions: <span id="suggestions">
+                salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache,
+                fresh fruit, whipped cream, or raspberry sauce
+              </span> (recipe in notes)</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </section>
 
 </body>
+
 </html>

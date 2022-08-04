@@ -1,0 +1,36 @@
+.ingredients-container {
+    margin: 3rem 0 0 14.75rem;
+    max-width: 36.875rem;
+}
+
+.ingredients-title {
+    font-family: var(--title-font);
+    color: var(--gray-one);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ingredients-subtitle {
+    font: italic 400 1.125rem var(--title-font);
+    color: var(--gray-one);
+    margin: 2.25rem 0 2.375rem 0;
+}
+
+.ingredients-list-item {
+    margin-bottom: 1.0625rem;
+}
+
+.list-paragraph {
+    font: 1rem var(--paragraph-font);
+    color: var(--gray-one);
+    margin-left: 1.0625rem;
+}
+
+.list-paragraph span {
+    font-weight: bold;
+}
+
+.list-paragraph #suggestions {
+    font-weight: normal;
+    font-style: italic;
+}

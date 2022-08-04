@@ -2,25 +2,23 @@
     margin: 3.25rem 0 0 14.75rem;
     max-width: 37rem;
 }
-.title-header {
-    font-family: var(--title-font);
-    font-size: 3rem;
-    margin-bottom: 0.75rem;
+
+.header-title {
+    font: 3rem var(--title-font);
+    margin-bottom: 1rem;
 }
 
-.paragraph-header {
-    font-family: var(--paragraph-font);
-    font-style: italic;
-    font-size: 0.875rem;
+.header-paragraph {
+    font: italic 0.875rem var(--paragraph-font);
     color: var(--gray-two);
 }
 
-.paragraph-box {
+.box-paragraph {
     display: flex;
     align-items: flex-start;
 }
 
-.paragraph-box::before {
+.box-paragraph::before {
     content: url(../img/6dots.svg);
     display: inline-flex;
     margin: 0.25rem 0.75rem 0 0;
