@@ -51,6 +51,7 @@ main {
 img {
     max-width: 238px;
     max-height: 427px;
+    object-fit: cover;
 }
 
 .card {
