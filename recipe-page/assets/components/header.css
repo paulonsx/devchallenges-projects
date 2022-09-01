@@ -1,14 +1,19 @@
 .header {
-    margin: 3.25rem 0 0 14.75rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.header-box {
     max-width: 37rem;
 }
 
-.header-title {
+.header-box h1 {
     font: 3rem var(--title-font);
     margin-bottom: 1rem;
 }
 
-.header-paragraph {
+.box-paragraph p {
     font: italic 0.875rem var(--paragraph-font);
     color: var(--gray-two);
 }
@@ -25,7 +30,15 @@
 }
 
 .banner {
-    margin: 2.6875rem 0 0 14.75rem;
+    margin-top: 2.6875rem;
     max-width: 60.625rem;
     max-height: 27.8125rem;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content-box {
+    display: inline-block;
 }

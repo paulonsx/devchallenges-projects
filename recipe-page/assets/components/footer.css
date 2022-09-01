@@ -1,0 +1,11 @@
+footer {
+    text-align: center;
+    font: .875rem var(--paragraph-font);
+    color: var(--gray-four);
+    color: #828282;
+    margin: 5.8125rem 0 1.5rem 0;
+}
+
+footer a {
+    color: unset;
+}

@@ -1,12 +1,16 @@
+.ingredients-title,
+.ingredients-subtitle,
+.ingredients-list-item {
+    text-align: start;
+}
+
 .ingredients-container {
-    margin: 3rem 0 0 14.75rem;
+    margin-top: 3rem;
     max-width: 36.875rem;
 }
 
 .ingredients-title {
-    font-family: var(--title-font);
-    color: var(--gray-one);
-    font-size: 1.5rem;
+    font: 1.5rem var(--title-font);
     margin-bottom: 2rem;
 }
 
