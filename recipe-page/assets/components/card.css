@@ -1,0 +1,45 @@
+.resume-card {
+    width: 13.5rem;
+    height: 22.9375rem;
+    background: #FFF;
+    box-shadow: 0rem 0rem 1.25rem rgba(0, 0, 0, 0.1);
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.6875rem;
+}
+
+.resume-info:last-child {
+    margin: 0;
+}
+
+.resume-info div {
+    text-align: start;
+}
+
+.resume-title {
+    font: .625rem var(--paragraph-font);
+    color: var(--gray-four);
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
+
+.resume-p {
+    font: 500 .875rem var(--paragraph-font);
+}
+
+.resume-p span {
+    color: var(--orange);
+}
+
+.resume-info img {
+    max-width: 1.6875rem;
+    max-height: 1.5625rem;
+    margin: 0 .8125rem 0 2.6875rem;
+}
